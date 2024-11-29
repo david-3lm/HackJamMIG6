@@ -11,15 +11,11 @@ public class Evento : ScriptableObject
 
 	public void pulsadoSi()
 	{
-		//find gamamanager and call the function
-		//CambiarValores(respuestas);
 		Debug.Log("Pulsado SI");
 	}
 
 	public void pulsadoNo()
 	{
-		//find gamamanager and call the function
-		//CambiarValores(-respuestas);
 		Debug.Log("Pulsado NO");
 	}
 }
