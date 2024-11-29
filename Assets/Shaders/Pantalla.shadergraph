@@ -162,23 +162,23 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "1c99b82dd1744f978a6ac4f8b37fde17"
+                    "m_Id": "f8e4af3ee6da42bcae421c282c8276c1"
                 },
-                "m_SlotId": 2
+                "m_SlotId": 1
             }
         },
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "a1ecaceae3fc453c8f97175122d482dc"
+                    "m_Id": "f8e4af3ee6da42bcae421c282c8276c1"
                 },
-                "m_SlotId": 0
+                "m_SlotId": 2
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "f8e4af3ee6da42bcae421c282c8276c1"
+                    "m_Id": "1c99b82dd1744f978a6ac4f8b37fde17"
                 },
-                "m_SlotId": 1
+                "m_SlotId": 2
             }
         },
         {
@@ -659,7 +659,7 @@
     "m_ShaderOutputName": "Edge",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 0.7799999713897705,
+        "x": 0.8999999761581421,
         "y": 1.0,
         "z": 1.0,
         "w": 1.0
