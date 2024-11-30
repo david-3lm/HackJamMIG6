@@ -5,7 +5,7 @@ public class LoadScene : MonoBehaviour
 {
     public void loadGame()
     {
-        SceneManager.LoadScene("Testing");
+        SceneManager.LoadScene("Testing_Juego");
     }
 
     public void loadMenu()

@@ -16,7 +16,7 @@ MonoBehaviour:
   pregunta: "Hay una manifestaci\xF3n de terraplanistas por el centro"
   respuestas:
   - {x: 0, y: 0, z: 0}
-  - {x: -20, y: -10, z: -10}
-  - {x: -10, y: -20, z: 0}
+  - {x: -20, y: -20, z: -20}
+  - {x: -20, y: -30, z: -15}
   si: Que sigan
   no: Controladles

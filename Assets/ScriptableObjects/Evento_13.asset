@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59349b78c2c1f0a009e1f6b5604dcff9, type: 3}
-  m_Name: Evento_2
+  m_Name: Evento_13
   m_EditorClassIdentifier: 
-  id: 2
-  pregunta: "\xBFMontamos una zona de acampada en el Retiro?"
+  id: 13
+  pregunta: "Echamos de menos sus canciones \xBFResucitamos a Julio Iglesias?"
   respuestas:
   - {x: 0, y: 0, z: 0}
-  - {x: -30, y: -20, z: 0}
-  - {x: 20, y: 30, z: 0}
-  si: Adelante
-  no: Ni hablar
+  - {x: 20, y: 20, z: 20}
+  - {x: 0, y: 0, z: 0}
+  si: Me encanta
+  no: Mejor no

@@ -15,8 +15,8 @@ MonoBehaviour:
   id: 7
   pregunta: Se prevee que va a nevar este invierno
   respuestas:
-  - {x: 10, y: 10, z: 10}
+  - {x: 20, y: 20, z: 20}
   - {x: 0, y: 0, z: 0}
-  - {x: -20, y: -10, z: -10}
+  - {x: -15, y: -15, z: -20}
   si: "Que est\xE9n preparados"
-  no: "Solo ser\xE1n cuatro gotas"
+  no: Eso no cuaja

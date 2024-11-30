@@ -15,8 +15,8 @@ MonoBehaviour:
   id: 1
   pregunta: Las calles son poco seguras. Montemos puestos militares.
   respuestas:
-  - {x: 20, y: 0, z: -20}
+  - {x: 30, y: 0, z: -30}
   - {x: 0, y: 0, z: 0}
-  - {x: 20, y: 10, z: 10}
-  si: Si, montadlas
-  no: "No, est\xE1n bien"
+  - {x: 30, y: 20, z: 20}
+  si: Si. Montadlas
+  no: "No. Est\xE1n bien"

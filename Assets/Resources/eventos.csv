@@ -1,11 +1,36 @@
 id,pregunta,respuesta1_x,respuesta1_y,respuesta1_z,respuesta2_x,respuesta2_y,respuesta2_z,respuesta3_x,respuesta3_y,respuesta3_z,si,no
-0,Cambiemos la tradición. Hagamos los San Fermines en la Calle Recoletos,10,20,0,-20,-10,0,0,0,0,Buena idea,Mejor donde está
-1,Las calles son poco seguras. Montemos puestos militares.,20,0,-20,0,0,0,20,10,10,"Si, montadlas","No, están bien"
-2,¿Montamos una zona de acampada en el Retiro?,0,0,0,-20,-10,0,10,20,0,Adelante,Ni hablar
-3,¿Ponemos agua salada en la zona de Madrid Playa?,10,0,0,0,-30,0,0,0,0,"Si, que disfruten","No, mejor dulce"
-4,¿Este año ponemos las luces navideñas?,20,10,10,0,0,0,20,0,0,¡Que brillen!,Gasta mucho
-5,Es hora de poner un uniforme de chulapo a todas las escuelas,10,0,-20,0,0,20,0,0,0,Si,No
-6,Se han quejado que varios perros robot se han escapado,10,10,10,0,0,0,0,0,0,Llamad a la roboperrera,Que sean libres
-7,Se prevee que va a nevar este invierno,10,10,10,0,0,0,-20,-10,-10,Que estén preparados,Solo serán cuatro gotas
-8,Hay una manifestación de terraplanistas por el centro,0,0,0,-20,-10,-10,-10,-20,0,Que sigan,Controladles
-9,El museo del Prado quiere ampliarse,0,0,0,40,0,0,-10,-10,0,Mas cuadros,Tienen ya mucho sitio
+0,Cambiemos la tradición. Hagamos los San Fermines en la Calle Recoletos,20,30,0,-30,-20,0,0,0,0,Buena idea,Mejor donde está
+1,Las calles son poco seguras. Montemos puestos militares.,30,0,-30,0,0,0,30,20,20,Si. Montadlas,No. Están bien
+2,¿Montamos una zona de acampada en el Retiro?,0,0,0,-30,-20,0,20,30,0,Adelante,Ni hablar
+3,¿Ponemos agua salada en la zona de Madrid Playa?,20,0,0,0,-30,0,0,0,0,Si. Que disfruten,No. Mejor dulce
+4,¿Este año ponemos las luces navideñas?,30,20,20,0,0,0,30,0,0,¡Que brillen!,Gasta mucho
+5,Es hora de poner un uniforme de chulapo a todas las escuelas,20,0,-30,0,0,30,0,0,0,Si,No
+6,Se han quejado que varios perros robot se han escapado,20,20,20,0,0,0,0,0,0,Llamad a la roboperrera,Que sean libres
+7,Se prevee que va a nevar este invierno,20,20,20,0,0,0,-15,-15,-20,Que estén preparados,Eso no cuaja
+8,Hay una manifestación de terraplanistas por el centro,0,0,0,-20,-20,-20,-20,-30,-15,Que sigan,Controladles
+9,El museo del Prado quiere ampliarse,0,0,0,40,0,0,-20,-20,0,Mas cuadros,Tienen ya mucho sitio
+10,¿Privatizamos el metro?,20,0,-30,0,0,0,0,-30,-20,Si,No
+11,Se han escapado varios clones del laboratorio,0,30,20,0,0,0,-20,-20,0,Tras ellos,Que vivan tranquilos
+12,Ha salido el oPhone 56 y se ha formado mucho alboroto,-20,-20,0,0,0,0,20,30,0,Contenedles,Se apañan solos
+13,Echamos de menos sus canciones ¿Resucitamos a Julio Iglesias?,0,0,0,20,20,20,0,0,0,Me encanta,Mejor no
+14,La gente va mas a los parques que a los bares,0,20,30,0,-30,-20,0,0,0,Cerrad algún parque,No pasa nada
+15,Quitamos algun parque para ampliar las calles,0,0,0,0,-20,-30,20,25,30,Empezad a talar,No los toques
+16,¿Les damos más presupuestos a las bibliotecas?,0,0,-30,30,0,0,0,0,0,Si,No
+17,El pegaso del zoológico se ha escapado,0,0,0,20,0,0,0,-20,0,Que lo atrapen,Es libre
+18,Ya van varios trenes averiados en Nueva Atocha,0,-20,-20,0,0,0,20,30,0,Reparad las vías,Que sigan pasando
+19,Hay que poner más árboles en las calles,0,0,30,0,0,30,0,0,-30,Plantadlos,No. Más cemento
+20,¿Cortamos las calles del centro para la Navidad?,30,30,0,0,0,0,-20,-20,0,Cortadlas,Que pasen coches
+21,Sol cierra por Navidades ¿Inaguramos Sol 2?,30,0,0,0,0,0,-20,-20,0,El mejor momento,Aún no
+22,Los ciudadanos piden reforma laboral,0,20,30,0,0,0,30,20,0,100% Teletrabajo,En casa no se trabaja
+23,Hay mucha contaminación ¿Peatonalizamos la M-30?,0,0,-20,20,20,0,-30,-20,0,Fuera coches,Imposible
+24,Por la noche hay muchas revueltas. ¿Instauramos un toque de queda?,30,-20,-30,0,0,0,0,30,30,Mejor. Más seguridad,No hagamos nada
+25,¿Prohibimos los coches terrestres y solo usar voladores?,30,0,-30,0,20,0,40,30,-30,De aquí al cielo,En tierra se quedan
+26,¿Retransmitimos Los Juegos del Hambre en Telemadrid?,0,0,0,40,30,-20,0,0,0,No existe la mala publicidad,Es una barbarie
+27,¿Abrimos más centro de salud en las afueras?,-30,0,40,0,0,0,-30,-20,0,Si Más sanidad,No Que anden un poco
+28,¿Promocionamos Madrid para celebrar el mundial de fútbol?,30,30,30,0,0,0,-15,-20,0,Que venga el fútbol,Nada de deportes
+29,¿Aprobamos leyes para favorecer adoptar animales?,0,0,20,0,0,30,0,0,0,Animales al poder,Que compren
+30,¿Construimos más parques para perros?,0,20,20,0,20,30,0,0,0,Que se diviertan,Que lleven correa
+31,¿Creamos una zona verde en el centro de Madrid?,-30,0,30,30,20,0,0,0,0,Más arboles,No toquemos el centro
+32,Ampliando el metro se han encontrado restos arqueológicos,0,0,0,20,20,20,0,-20,-20,Hagamos un museo,Echad cemento
+33,Se ha descubierto que un meteorito puede caer en Madrid,0,20,20,0,0,0,-30,0,,Evacuad la población,Que no miren arriba
+34,¿Ponemos más cámaras de seguridad en las calles?,20,20,20,0,0,0,0,0,0,Si,No

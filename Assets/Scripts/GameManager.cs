@@ -11,6 +11,11 @@ public class GameManager : MonoBehaviour
     int roundCounter = 1;
     public LoadScene loadScene;
     [SerializeField] private TextMeshProUGUI preguntas;
+    
+    [Header("Pilotos")]
+    [SerializeField] private SpriteRenderer gente;
+    [SerializeField] private SpriteRenderer cultura;
+    [SerializeField] private SpriteRenderer tren;
     public delegate void ValoresCambiados();
     public event ValoresCambiados OnValoresCambiados;
 
@@ -43,6 +48,27 @@ public class GameManager : MonoBehaviour
         eventos.Remove(evento);
     }
 
+    private void ActualizarPilotos()
+    {
+        if (medias[0].x < 40)
+            gente.color = Color.red;
+        else if (medias[0].x < 60)
+            gente.color = Color.yellow;
+        else if (medias[0].x < 80)
+            gente.color = Color.green;
+        if (medias[0].y < 40)
+            cultura.color = Color.red;
+        else if (medias[0].y < 60)
+            cultura.color = Color.yellow;
+        else if (medias[0].y < 80)
+            cultura.color = Color.green;
+        if (medias[0].z < 40)
+            tren.color = Color.red;
+        else if (medias[0].z < 60)
+            tren.color = Color.yellow;
+        else if (medias[0].z < 80)
+            tren.color = Color.green;
+    }
     public void BotonPulsado(bool respuesta)
     {
         CambiarValores(activeEvent.respuestas, respuesta);
@@ -60,11 +86,11 @@ public class GameManager : MonoBehaviour
             else
                 lugares[i] += (-1 * valores[i]);
         }
-
         if (OnValoresCambiados != null)
             OnValoresCambiados();
         if (checkGameOver())
             loadScene.loseGame();
+        ActualizarPilotos();
     }
 
     public bool checkGameOver()
