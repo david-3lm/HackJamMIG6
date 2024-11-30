@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public Vector3[] lugares = new Vector3[3];
     public Vector3[] medias = new Vector3[2];
-    Evento activeEvent;
+    public Evento activeEvent;
     [SerializeField]List<Evento> eventos = new List<Evento>();
     int roundCounter = 1;
     
