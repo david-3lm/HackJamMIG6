@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public Evento activeEvent;
     [SerializeField]List<Evento> eventos = new List<Evento>();
     int roundCounter = 1;
+    public LoadScene loadScene;
     
     public delegate void ValoresCambiados();
     public event ValoresCambiados OnValoresCambiados;
@@ -30,6 +31,7 @@ public class GameManager : MonoBehaviour
         if (roundCounter >= 15)
         {
             Debug.Log("Fin del juego");
+            loadScene.winGame();
         }
         activeEvent = eventos[Random.Range(0, eventos.Count)];
     }
@@ -59,5 +61,18 @@ public class GameManager : MonoBehaviour
 
         if (OnValoresCambiados != null)
             OnValoresCambiados();
+        if (checkGameOver())
+            loadScene.loseGame();
+    }
+
+    public bool checkGameOver()
+    {
+        Debug.Log("Checking game over");
+        for (int i = 0; i < lugares.Length; i++)
+        {
+            if (lugares[i].x <= 30 && lugares[i].y <= 30 && lugares[i].z <= 30)
+                return true;
+        }
+        return false;
     }
 }
