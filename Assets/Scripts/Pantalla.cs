@@ -11,6 +11,7 @@ public class Pantalla : MonoBehaviour
     private GameManager gm;
 
     private SpriteRenderer sr;
+    Material material;
 
     public float value;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -19,6 +20,7 @@ public class Pantalla : MonoBehaviour
         gm = FindFirstObjectByType<GameManager>();
         value = gm.lugares[x][y];
         sr = GetComponent<SpriteRenderer>();
+        material = sr.material;
         gm.OnValoresCambiados += ActualizarValores;
         ActualizarColor();
     }
@@ -40,19 +42,19 @@ public class Pantalla : MonoBehaviour
         if (value <= 30)
         {
             //camara roja
-            sr.color = new Color(1, 0, 0, value);
+            material.color = new Color(1, 0, 0, value);
             //Debug.Log("Camara Roja en posicion" + x + y);
         }
         else if (value >= 40 && value <= 70)
         {
             //camara naranja
-            sr.color = new Color(1, 0.5f, 0, value);
+            material.color = new Color(1, 0.5f, 0, value);
             //Debug.Log("Camara Naranja en posicion" + x + y);
         }
         else if (value >= 70)
         {
             //camara verde  
-            sr.color = new Color(0, 1, 0, value);
+            material.color = new Color(0, 1, 0, value);
             Debug.Log("Camara verde en posicion " + x + y);
         }
     }
