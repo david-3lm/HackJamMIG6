@@ -17,4 +17,14 @@ public class LoadScene : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void winGame()
+    {
+        SceneManager.LoadScene("WinGame");
+    }
+
+    public void loseGame()
+    {
+        SceneManager.LoadScene("LoseGame");
+    }
 }
