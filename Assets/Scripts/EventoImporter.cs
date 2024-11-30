@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
@@ -5,6 +6,11 @@ using UnityEngine;
 public class EventoImporter : MonoBehaviour
 {
     public string csvFileName = "eventos.csv"; // Nombre del archivo CSV en la carpeta Resources
+
+    private void Awake()
+    {
+        ImportCSV();
+    }
 
     public void ImportCSV()
     {

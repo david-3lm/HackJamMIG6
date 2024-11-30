@@ -1,0 +1,11 @@
+id,pregunta,respuesta1_x,respuesta1_y,respuesta1_z,respuesta2_x,respuesta2_y,respuesta2_z,respuesta3_x,respuesta3_y,respuesta3_z,si,no
+0,Cambiemos la tradición. Hagamos los San Fermines en la Calle Recoletos,10,20,0,-20,-10,0,0,0,0,Buena idea,Mejor donde está
+1,Las calles son poco seguras. Montemos puestos militares.,20,0,-20,0,0,0,20,10,10,"Si, montadlas","No, están bien"
+2,¿Montamos una zona de acampada en el Retiro?,0,0,0,-20,-10,0,10,20,0,Adelante,Ni hablar
+3,¿Ponemos agua salada en la zona de Madrid Playa?,10,0,0,0,-30,0,0,0,0,"Si, que disfruten","No, mejor dulce"
+4,¿Este año ponemos las luces navideñas?,20,10,10,0,0,0,20,0,0,¡Que brillen!,Gasta mucho
+5,Es hora de poner un uniforme de chulapo a todas las escuelas,10,0,-20,0,0,20,0,0,0,Si,No
+6,Se han quejado que varios perros robot se han escapado,10,10,10,0,0,0,0,0,0,Llamad a la roboperrera,Que sean libres
+7,Se prevee que va a nevar este invierno,10,10,10,0,0,0,-20,-10,-10,Que estén preparados,Solo serán cuatro gotas
+8,Hay una manifestación de terraplanistas por el centro,0,0,0,-20,-10,-10,-10,-20,0,Que sigan,Controladles
+9,El museo del Prado quiere ampliarse,0,0,0,40,0,0,-10,-10,0,Mas cuadros,Tienen ya mucho sitio
