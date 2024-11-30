@@ -69,11 +69,16 @@ public class GameManager : MonoBehaviour
 
     public bool checkGameOver()
     {
-        Debug.Log("Checking game over");
         medias[0].x = (lugares[0].x + lugares[0].y + lugares[0].z) / 3;
         medias[0].y = (lugares[1].x + lugares[1].y + lugares[1].z) / 3;
         medias[0].z = (lugares[2].x + lugares[2].y + lugares[2].z) / 3;
         if (medias[0].x < 30 || medias[0].y < 30 || medias[0].z < 30)
+            return true;
+        if (lugares[0].x <= 30 && lugares[1].x <= 30 && lugares[2].x <= 30)
+            return true;
+        if (lugares[0].y <= 30 && lugares[1].y <= 30 && lugares[2].y <= 30)
+            return true;
+        if (lugares[0].z <= 30 && lugares[1].z <= 30 && lugares[2].z <= 30)
             return true;
         return false;
     }
