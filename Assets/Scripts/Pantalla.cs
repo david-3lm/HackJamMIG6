@@ -48,7 +48,7 @@ public class Pantalla : MonoBehaviour
         else if (value >= 40 && value <= 70)
         {
             //camara naranja
-            material.color = new Color(1, 0.5f, 0, value);
+            material.color = new Color(1, 1.0f, 0.5f, value);
             //Debug.Log("Camara Naranja en posicion" + x + y);
         }
         else if (value >= 70)

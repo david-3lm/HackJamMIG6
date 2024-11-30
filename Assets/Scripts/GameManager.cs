@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]List<Evento> eventos = new List<Evento>();
     int roundCounter = 1;
     public LoadScene loadScene;
-    
+    [SerializeField] private TextMeshProUGUI preguntas;
     public delegate void ValoresCambiados();
     public event ValoresCambiados OnValoresCambiados;
 
@@ -34,6 +35,7 @@ public class GameManager : MonoBehaviour
             loadScene.winGame();
         }
         activeEvent = eventos[Random.Range(0, eventos.Count)];
+        preguntas.text = activeEvent.pregunta;
     }
 
     public void removeEvent(Evento evento)
