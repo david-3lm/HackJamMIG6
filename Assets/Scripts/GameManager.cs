@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private SpriteRenderer tren;
     public delegate void ValoresCambiados();
     public event ValoresCambiados OnValoresCambiados;
+    public delegate void CheckBlinking(int a, int b);
+    public event CheckBlinking OnCheckBlinking;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -107,5 +109,20 @@ public class GameManager : MonoBehaviour
         if (lugares[0].z <= 30 && lugares[1].z <= 30 && lugares[2].z <= 30)
             return true;
         return false;
+    }
+
+    public void CheckHover()
+    {
+        for (int i = 0; i < lugares.Length; i++)
+        {
+            OnCheckBlinking(i, 0);
+            OnCheckBlinking(i, 1);
+            OnCheckBlinking(i, 2);
+        }
+    }
+    
+    public void ResetHover()
+    {
+       OnCheckBlinking(3, 3);
     }
 }

@@ -2644,10 +2644,10 @@
     "m_Guid": {
         "m_GuidSerialized": "4f181910-c543-41ff-b186-3c5f9f586348"
     },
-    "m_Name": "Hover",
+    "m_Name": "Blink",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Hover",
-    "m_DefaultReferenceName": "_Hover",
+    "m_RefNameGeneratedByDisplayName": "Blink",
+    "m_DefaultReferenceName": "_Blink",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -2694,7 +2694,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "b0f6923685f2463f932ae5cf8051a304",
     "m_Id": 0,
-    "m_DisplayName": "Hover",
+    "m_DisplayName": "Blink",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",

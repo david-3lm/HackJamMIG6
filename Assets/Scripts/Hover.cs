@@ -26,6 +26,7 @@ public class Hover : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        gm.CheckHover();
         if (esSi)
         {
             mat.SetFloat("_Hovering", 1.0f);
@@ -43,6 +44,7 @@ public class Hover : MonoBehaviour
     public void OnMouseExit()
     {
         mat.SetFloat("_Hovering", 0.0f);
+        gm.ResetHover();
         mat.color = Color.clear;
         text.text = "";
         Debug.Log("Mouse exit" + mat.GetFloat("_Hovering"));

@@ -22,6 +22,7 @@ public class Pantalla : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         material = sr.material;
         gm.OnValoresCambiados += ActualizarValores;
+        gm.OnCheckBlinking += Blinking;
         ActualizarColor();
     }
 
@@ -56,6 +57,18 @@ public class Pantalla : MonoBehaviour
             //camara verde  
             material.color = new Color(0, 1, 0, value);
             //Debug.Log("Camara verde en posicion " + x + y);
+        }
+    }
+
+    void Blinking(int x, int y)
+    {
+        if (this.x == x && this.y == y)
+        {
+            material.SetFloat("_Blink", 1.0f);
+        }
+        else
+        {
+            material.SetFloat("_Blink", 0.0f);
         }
     }
 }
