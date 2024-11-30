@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class GameManager : MonoBehaviour
 {
     public Vector3[] lugares = new Vector3[3];
-    public Vector3[] medias = new Vector3[2];
+    public Vector3[] medias = new Vector3[1];
     public Evento activeEvent;
     [SerializeField]List<Evento> eventos = new List<Evento>();
     int roundCounter = 1;
@@ -68,11 +68,11 @@ public class GameManager : MonoBehaviour
     public bool checkGameOver()
     {
         Debug.Log("Checking game over");
-        for (int i = 0; i < lugares.Length; i++)
-        {
-            if (lugares[i].x <= 30 && lugares[i].y <= 30 && lugares[i].z <= 30)
-                return true;
-        }
+        medias[0].x = (lugares[0].x + lugares[0].y + lugares[0].z) / 3;
+        medias[0].y = (lugares[1].x + lugares[1].y + lugares[1].z) / 3;
+        medias[0].z = (lugares[2].x + lugares[2].y + lugares[2].z) / 3;
+        if (medias[0].x < 30 || medias[0].y < 30 || medias[0].z < 30)
+            return true;
         return false;
     }
 }
