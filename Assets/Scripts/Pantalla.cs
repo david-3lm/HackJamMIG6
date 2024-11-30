@@ -55,7 +55,7 @@ public class Pantalla : MonoBehaviour
         {
             //camara verde  
             material.color = new Color(0, 1, 0, value);
-            Debug.Log("Camara verde en posicion " + x + y);
+            //Debug.Log("Camara verde en posicion " + x + y);
         }
     }
 }
