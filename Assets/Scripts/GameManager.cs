@@ -9,6 +9,9 @@ public class GameManager : MonoBehaviour
     Evento activeEvent;
     [SerializeField]List<Evento> eventos = new List<Evento>();
     int roundCounter = 1;
+    
+    public delegate void ValoresCambiados();
+    public event ValoresCambiados OnValoresCambiados;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -55,6 +58,9 @@ public class GameManager : MonoBehaviour
             else
                 lugares[i] += (-1 * valores[i]);
         }
+
+        if (OnValoresCambiados != null)
+            OnValoresCambiados();
         setCamColor();
         makeAverage();
     }
@@ -78,8 +84,7 @@ public class GameManager : MonoBehaviour
             {
                 //camara verde
             }
-
-
+            
             if (lugares[i].y <= 30)
             {
                 //camara roja
