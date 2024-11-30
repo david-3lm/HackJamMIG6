@@ -29,16 +29,16 @@ public class Hover : MonoBehaviour
         if (esSi)
         {
             mat.SetFloat("_Hovering", 1.0f);
-            //text.text = gm.activeEvent.si;
             text.text = "Pues esto verde";
+            text.text = gm.activeEvent.si;
             mat.color = Color.green;
             Debug.Log("HoverSi" + mat.GetFloat("_Hovering"));
         }
         else
         {
             mat.SetFloat("_Hovering", 1.0f);
-            //text.text = gm.activeEvent.no;
             text.text = "Pues esto rojo";
+            text.text = gm.activeEvent.no;
             mat.color = Color.red;
             Debug.Log("HoverNo");
         }
