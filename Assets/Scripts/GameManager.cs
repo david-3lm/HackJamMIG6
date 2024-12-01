@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]List<Evento> eventos = new List<Evento>();
     int roundCounter = 1;
     public LoadScene loadScene;
+    public TimerBar timerBar;
     [SerializeField] private TextMeshProUGUI preguntas;
     
     [Header("Pilotos")]
@@ -75,6 +76,7 @@ public class GameManager : MonoBehaviour
     {
         CambiarValores(activeEvent.respuestas, respuesta);
         Debug.Log("Boton pulsado: " + respuesta);
+        timerBar.resetTimer();
         selectNextEvent();
         removeEvent(activeEvent);
     }
@@ -100,7 +102,7 @@ public class GameManager : MonoBehaviour
         medias[0].x = (lugares[0].x + lugares[0].y + lugares[0].z) / 3;
         medias[0].y = (lugares[1].x + lugares[1].y + lugares[1].z) / 3;
         medias[0].z = (lugares[2].x + lugares[2].y + lugares[2].z) / 3;
-        if (medias[0].x < 30 || medias[0].y < 30 || medias[0].z < 30)
+        if (medias[0].x <= 20 || medias[0].y <= 20 || medias[0].z <= 20)
             return true;
         if (lugares[0].x <= 30 && lugares[1].x <= 30 && lugares[2].x <= 30)
             return true;

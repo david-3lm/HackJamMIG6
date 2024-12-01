@@ -1131,6 +1131,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 27f4f5ed164aab6a5bd33cb0dc690106, type: 2}
   loadScene: {fileID: 748190249}
   preguntas: {fileID: 967478929}
+  gente: {fileID: 0}
+  cultura: {fileID: 0}
+  tren: {fileID: 0}
 --- !u!4 &781303930
 Transform:
   m_ObjectHideFlags: 0
@@ -1734,6 +1737,7 @@ Transform:
   - {fileID: 1776565852}
   - {fileID: 456120660}
   - {fileID: 1016542666}
+  - {fileID: 1813849347}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1322733068
@@ -2571,6 +2575,37 @@ MonoBehaviour:
   x: 2
   y: 0
   value: 0
+--- !u!1 &1813849346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1813849347}
+  m_Layer: 0
+  m_Name: Reloj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1813849347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813849346}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1254792270}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1827417821
 GameObject:
   m_ObjectHideFlags: 0
