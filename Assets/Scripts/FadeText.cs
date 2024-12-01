@@ -6,7 +6,6 @@ using TMPro;
 public class TextSequence : MonoBehaviour
 {
     public TMP_Text[] texts;
-    public Button finalButton;
     public float fadeDuration = 1f;
     public float displayDuration = 2f;
 
@@ -23,7 +22,6 @@ public class TextSequence : MonoBehaviour
             yield return new WaitForSeconds(displayDuration);
             yield return StartCoroutine(FadeOut(text));
         }
-        finalButton.gameObject.SetActive(true);
         Debug.Log("Secuencia de textos completada");
     }
 
