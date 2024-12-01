@@ -15,8 +15,8 @@ MonoBehaviour:
   id: 0
   pregunta: "Cambiemos la tradici\xF3n. Hagamos los San Fermines en la Calle Recoletos"
   respuestas:
-  - {x: 20, y: 30, z: 0}
-  - {x: -30, y: -20, z: 0}
-  - {x: 0, y: 0, z: 0}
+  - {x: 20, y: 15, z: -10}
+  - {x: 20, y: -15, z: 0}
+  - {x: -15, y: -15, z: 0}
   si: Buena idea
   no: "Mejor donde est\xE1"

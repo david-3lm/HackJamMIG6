@@ -15,7 +15,7 @@ MonoBehaviour:
   id: 28
   pregunta: "\xBFPromocionamos Madrid para celebrar el mundial de f\xFAtbol?"
   respuestas:
-  - {x: 30, y: 30, z: 30}
+  - {x: 20, y: 20, z: 20}
   - {x: 0, y: 0, z: 0}
   - {x: -15, y: -20, z: 0}
   si: "Que venga el f\xFAtbol"

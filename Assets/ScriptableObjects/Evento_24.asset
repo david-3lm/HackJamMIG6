@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Evento_24
   m_EditorClassIdentifier: 
   id: 24
-  pregunta: "Por la noche hay muchas revueltas. \xBFInstauramos un toque de queda?"
+  pregunta: "Por la noche hay muchas revueltas \xBFInstauramos un toque de queda?"
   respuestas:
-  - {x: 30, y: -20, z: -30}
+  - {x: 30, y: -15, z: -15}
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 30, z: 30}
   si: "Mejor. M\xE1s seguridad"

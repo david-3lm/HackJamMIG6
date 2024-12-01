@@ -15,8 +15,8 @@ MonoBehaviour:
   id: 11
   pregunta: Se han escapado varios clones del laboratorio
   respuestas:
-  - {x: 0, y: 30, z: 20}
+  - {x: 0, y: 20, z: 20}
   - {x: 0, y: 0, z: 0}
-  - {x: -20, y: -20, z: 0}
+  - {x: -15, y: -15, z: 0}
   si: Tras ellos
   no: Que vivan tranquilos

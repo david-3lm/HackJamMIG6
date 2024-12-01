@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59349b78c2c1f0a009e1f6b5604dcff9, type: 3}
-  m_Name: Evento_14
+  m_Name: Evento_42
   m_EditorClassIdentifier: 
-  id: 14
-  pregunta: "La gente va mas a los parques que a los bares \xBFElaboramos alg\xFAn
-    plan?"
+  id: 42
+  pregunta: "Ha ocurrido un apag\xF3n en toda la ciudad \xBFC\xF3mo actuamos?"
   respuestas:
-  - {x: 0, y: 20, z: 30}
-  - {x: 0, y: -20, z: -20}
+  - {x: 15, y: 15, z: -15}
   - {x: 0, y: 0, z: 0}
-  si: "Cerrad alg\xFAn parque"
-  no: Que disfruten del aire
+  - {x: 10, y: 10, z: 10}
+  si: "Desplegad a la polic\xEDa"
+  no: "Que se apa\xF1en con linternas"

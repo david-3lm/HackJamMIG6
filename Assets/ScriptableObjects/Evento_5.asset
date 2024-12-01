@@ -15,7 +15,7 @@ MonoBehaviour:
   id: 5
   pregunta: Es hora de poner un uniforme de chulapo a todas las escuelas
   respuestas:
-  - {x: 20, y: 0, z: -30}
+  - {x: 20, y: 0, z: -20}
   - {x: 0, y: 0, z: 30}
   - {x: 0, y: 0, z: 0}
   si: Si

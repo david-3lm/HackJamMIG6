@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Evento_2
   m_EditorClassIdentifier: 
   id: 2
-  pregunta: "\xBFMontamos una zona de acampada en el Retiro?"
+  pregunta: "\xBFInvertimos en poner una zona de acampada en el Retiro?"
   respuestas:
   - {x: 0, y: 0, z: 0}
-  - {x: -30, y: -20, z: 0}
+  - {x: -20, y: -20, z: 0}
   - {x: 20, y: 30, z: 0}
   si: Adelante
   no: Ni hablar

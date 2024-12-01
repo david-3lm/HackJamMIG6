@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Evento_20
   m_EditorClassIdentifier: 
   id: 20
-  pregunta: "\xBFCortamos las calles del centro para la Navidad?"
+  pregunta: "\xBFCortamos varias calles del centro para la Navidad?"
   respuestas:
   - {x: 30, y: 30, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: -20, y: -20, z: 0}
+  - {x: 0, y: 0, z: 15}
+  - {x: -25, y: -25, z: 0}
   si: Cortadlas
   no: Que pasen coches

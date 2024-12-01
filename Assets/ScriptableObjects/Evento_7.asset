@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Evento_7
   m_EditorClassIdentifier: 
   id: 7
-  pregunta: Se prevee que va a nevar este invierno
+  pregunta: "Se prevee que va a nevar este invierno \xBFCerramos las calles?"
   respuestas:
   - {x: 20, y: 20, z: 20}
   - {x: 0, y: 0, z: 0}
-  - {x: -15, y: -15, z: -20}
-  si: "Que est\xE9n preparados"
-  no: Eso no cuaja
+  - {x: -10, y: -10, z: -10}
+  si: Si. Que se preparen
+  no: No. Eso no cuaja

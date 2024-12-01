@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Evento_12
   m_EditorClassIdentifier: 
   id: 12
-  pregunta: Ha salido el oPhone 56 y se ha formado mucho alboroto
+  pregunta: "Ha salido el oPhone 56 y se est\xE1n formando varios disturbios"
   respuestas:
   - {x: -20, y: -20, z: 0}
   - {x: 0, y: 0, z: 0}
-  - {x: 20, y: 30, z: 0}
+  - {x: 20, y: 20, z: 0}
   si: Contenedles
   no: "Se apa\xF1an solos"

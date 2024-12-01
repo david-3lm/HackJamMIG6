@@ -15,8 +15,8 @@ MonoBehaviour:
   id: 3
   pregunta: "\xBFPonemos agua salada en la zona de Madrid Playa?"
   respuestas:
-  - {x: 20, y: 0, z: 0}
+  - {x: 20, y: 20, z: 0}
   - {x: 0, y: -30, z: 0}
-  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: -20, z: -20}
   si: Si. Que disfruten
   no: No. Mejor dulce

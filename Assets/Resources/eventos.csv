@@ -1,36 +1,46 @@
 id,pregunta,respuesta1_x,respuesta1_y,respuesta1_z,respuesta2_x,respuesta2_y,respuesta2_z,respuesta3_x,respuesta3_y,respuesta3_z,si,no
-0,Cambiemos la tradición. Hagamos los San Fermines en la Calle Recoletos,20,30,0,-30,-20,0,0,0,0,Buena idea,Mejor donde está
-1,Las calles son poco seguras. Montemos puestos militares.,30,0,-30,0,0,0,30,20,20,Si. Montadlas,No. Están bien
-2,¿Montamos una zona de acampada en el Retiro?,0,0,0,-30,-20,0,20,30,0,Adelante,Ni hablar
-3,¿Ponemos agua salada en la zona de Madrid Playa?,20,0,0,0,-30,0,0,0,0,Si. Que disfruten,No. Mejor dulce
-4,¿Este año ponemos las luces navideñas?,30,20,20,0,0,0,30,0,0,¡Que brillen!,Gasta mucho
-5,Es hora de poner un uniforme de chulapo a todas las escuelas,20,0,-30,0,0,30,0,0,0,Si,No
+0,Cambiemos la tradición. Hagamos los San Fermines en la Calle Recoletos,20,15,-10,20,-15,0,-15,-15,0,Buena idea,Mejor donde está
+1,Las calles son poco seguras. Montemos puestos militares.,30,0,-30,0,0,0,20,20,20,Si. Montadlas,No. Están bien
+2,¿Invertimos en poner una zona de acampada en el Retiro?,0,0,0,-20,-20,0,20,30,0,Adelante,Ni hablar
+3,¿Ponemos agua salada en la zona de Madrid Playa?,20,20,0,0,-30,0,0,-20,-20,Si. Que disfruten,No. Mejor dulce
+4,¿Este año instalamos las luces navideñas?,20,20,20,0,0,0,-25,-25,0,¡Que brillen!,Gasta mucho
+5,Es hora de poner un uniforme de chulapo a todas las escuelas,20,0,-20,0,0,30,0,0,0,Si,No
 6,Se han quejado que varios perros robot se han escapado,20,20,20,0,0,0,0,0,0,Llamad a la roboperrera,Que sean libres
-7,Se prevee que va a nevar este invierno,20,20,20,0,0,0,-15,-15,-20,Que estén preparados,Eso no cuaja
-8,Hay una manifestación de terraplanistas por el centro,0,0,0,-20,-20,-20,-20,-30,-15,Que sigan,Controladles
-9,El museo del Prado quiere ampliarse,0,0,0,40,0,0,-20,-20,0,Mas cuadros,Tienen ya mucho sitio
-10,¿Privatizamos el metro?,20,0,-30,0,0,0,0,-30,-20,Si,No
-11,Se han escapado varios clones del laboratorio,0,30,20,0,0,0,-20,-20,0,Tras ellos,Que vivan tranquilos
-12,Ha salido el oPhone 56 y se ha formado mucho alboroto,-20,-20,0,0,0,0,20,30,0,Contenedles,Se apañan solos
-13,Echamos de menos sus canciones ¿Resucitamos a Julio Iglesias?,0,0,0,20,20,20,0,0,0,Me encanta,Mejor no
-14,La gente va mas a los parques que a los bares,0,20,30,0,-30,-20,0,0,0,Cerrad algún parque,No pasa nada
-15,Quitamos algun parque para ampliar las calles,0,0,0,0,-20,-30,20,25,30,Empezad a talar,No los toques
+7,Se prevee que va a nevar este invierno ¿Cerramos las calles?,20,20,20,0,0,0,-10,-10,-10,Si. Que se preparen,No. Eso no cuaja
+8,Hay una manifestación de terraplanistas en el centro,0,0,0,-20,-20,-20,-15,-15,-15,Que sigan,Controladles
+9,¿Destinamos dinero para ampliar el museo del Prado?,-10,0,0,40,0,0,0,-20,0,Mas cuadros,Tienen ya mucho sitio
+10,¿Privatizamos el metro?,20,0,-30,0,0,0,0,-10,-20,Si,No
+11,Se han escapado varios clones del laboratorio,0,20,20,0,0,0,-15,-15,0,Tras ellos,Que vivan tranquilos
+12,Ha salido el oPhone 56 y se están formando varios disturbios,-20,-20,0,0,0,0,20,20,0,Contenedles,Se apañan solos
+13,Echamos de menos sus canciones ¿Resucitamos a Julio Iglesias?,0,0,0,20,20,0,0,0,0,Me encanta,Mejor no
+14,La gente va mas a los parques que a los bares ¿Elaboramos algún plan?,0,20,30,0,-20,-20,0,0,0,Cerrad algún parque,Que disfruten del aire
+15,¿Quitamos algún parque para ampliar las calzadas?,0,0,0,0,-20,-15,15,15,15,Empezad a talar,No los toques
 16,¿Les damos más presupuestos a las bibliotecas?,0,0,-30,30,0,0,0,0,0,Si,No
 17,El pegaso del zoológico se ha escapado,0,0,0,20,0,0,0,-20,0,Que lo atrapen,Es libre
-18,Ya van varios trenes averiados en Nueva Atocha,0,-20,-20,0,0,0,20,30,0,Reparad las vías,Que sigan pasando
+18,Ya van varios trenes averiados en Nueva Atocha,0,-20,-20,0,0,0,20,25,0,Reparad las vías,Que sigan pasando
 19,Hay que poner más árboles en las calles,0,0,30,0,0,30,0,0,-30,Plantadlos,No. Más cemento
-20,¿Cortamos las calles del centro para la Navidad?,30,30,0,0,0,0,-20,-20,0,Cortadlas,Que pasen coches
-21,Sol cierra por Navidades ¿Inaguramos Sol 2?,30,0,0,0,0,0,-20,-20,0,El mejor momento,Aún no
-22,Los ciudadanos piden reforma laboral,0,20,30,0,0,0,30,20,0,100% Teletrabajo,En casa no se trabaja
-23,Hay mucha contaminación ¿Peatonalizamos la M-30?,0,0,-20,20,20,0,-30,-20,0,Fuera coches,Imposible
-24,Por la noche hay muchas revueltas. ¿Instauramos un toque de queda?,30,-20,-30,0,0,0,0,30,30,Mejor. Más seguridad,No hagamos nada
+20,¿Cortamos varias calles del centro para la Navidad?,30,30,0,0,0,15,-25,-25,0,Cortadlas,Que pasen coches
+21,Sol cierra por Navidades ¿Inaguramos Sol 2 en Canillejas?,-20,10,20,0,0,0,-20,-20,0,El mejor momento,Aún no
+22,Los ciudadanos piden reforma laboral para trabajar desde casa,0,20,30,0,0,0,20,20,0,100% Teletrabajo,En casa no se trabaja
+23,Hay mucha contaminación ¿Peatonalizamos la M-30?,-10,-10,-10,20,20,0,-20,-20,0,Fuera coches,Imposible
+24,Por la noche hay muchas revueltas ¿Instauramos un toque de queda?,30,-15,-15,0,0,0,0,30,30,Mejor. Más seguridad,No hagamos nada
 25,¿Prohibimos los coches terrestres y solo usar voladores?,30,0,-30,0,20,0,40,30,-30,De aquí al cielo,En tierra se quedan
-26,¿Retransmitimos Los Juegos del Hambre en Telemadrid?,0,0,0,40,30,-20,0,0,0,No existe la mala publicidad,Es una barbarie
-27,¿Abrimos más centro de salud en las afueras?,-30,0,40,0,0,0,-30,-20,0,Si Más sanidad,No Que anden un poco
-28,¿Promocionamos Madrid para celebrar el mundial de fútbol?,30,30,30,0,0,0,-15,-20,0,Que venga el fútbol,Nada de deportes
+26,¿Retransmitimos Los Juegos del Hambre en Telemadrid?,0,0,0,30,20,-20,0,0,0,No existe la mala publicidad,Es una barbarie
+27,¿Abrimos más centro de salud en las afueras?,-20,0,30,0,0,0,-25,-20,0,Si Más sanidad,No Que anden un poco
+28,¿Promocionamos Madrid para celebrar el mundial de fútbol?,20,20,20,0,0,0,-15,-20,0,Que venga el fútbol,Nada de deportes
 29,¿Aprobamos leyes para favorecer adoptar animales?,0,0,20,0,0,30,0,0,0,Animales al poder,Que compren
-30,¿Construimos más parques para perros?,0,20,20,0,20,30,0,0,0,Que se diviertan,Que lleven correa
-31,¿Creamos una zona verde en el centro de Madrid?,-30,0,30,30,20,0,0,0,0,Más arboles,No toquemos el centro
-32,Ampliando el metro se han encontrado restos arqueológicos,0,0,0,20,20,20,0,-20,-20,Hagamos un museo,Echad cemento
-33,Se ha descubierto que un meteorito puede caer en Madrid,0,20,20,0,0,0,-30,0,,Evacuad la población,Que no miren arriba
+30,¿Gastamos para construir más parques perrunos?,-20,20,20,0,20,20,0,0,0,Que se diviertan,Que lleven correa
+31,¿Financiamos una zona verde en el centro de Madrid?,-20,-15,30,20,20,0,0,0,0,Más arboles,No toquemos el centro
+32,Ampliando el metro se han encontrado restos arqueológicos,0,0,0,20,20,0,0,-20,-20,Hagamos un museo,Echad cemento
+33,Se ha descubierto que un meteorito puede caer en Madrid,-10,20,20,0,0,0,-25,0,0,Evacuad la población,Que no miren arriba
 34,¿Ponemos más cámaras de seguridad en las calles?,20,20,20,0,0,0,0,0,0,Si,No
+35,La gente quiere usar parte de la pradera de San Isidro como campo de cultivo,-20,0,20,-20,0,20,0,0,0,Se hace un hueco,La pradera no se toca
+36,Los basureros se han puesto en huelga ¿Cómo lo gestionamos?,20,20,20,0,0,0,-15,0,0,Subidles el sueldo,Pueden esperar
+37,Se está mudando mucha gente a Madrid ¿Invertimos en más pisos?,0,20,20,0,0,-15,0,-15,-15,Construid más casas,No se puede ampliar más
+38,Un nuevo culto quiere la Plaza Mayor para realizar una ofrenda a su dios,15,0,0,0,-15,-15,0,0,0,Dadles permiso,Ninguna ofrenda
+39,¿Este año también celebraremos la Feria del e-book?,0,15,15,0,20,20,0,-15,-15,Si,No
+40,Mi vecino quiere formar un país independiente en su casa,-20,0,20,0,0,15,0,0,0,Ningún problema,Que no siga
+41,Necesitamos transladar el cementerio para construir un bloque de pisos,20,15,-20,0,-15,-15,-20,-15,0,Transladarlos,Es intocable
+42,Ha ocurrido un apagón en toda la ciudad ¿Cómo actuamos?,15,15,-15,0,0,0,10,10,10,Desplegad a la policía,Que se apañen con linternas
+43,Se espera que llegue una ola de calor ¿Avisamos a la población?,-20,-10,20,0,-20,0,0,0,0,Que no salgan de casa,No avisar
+44,Varias personas se desplazan en bicicleta ¿Ampliamos la ciclovía?,-15,15,15,0,0,15,-15,0,-15,Reducid la calzada,Ampliar las lineas de buses

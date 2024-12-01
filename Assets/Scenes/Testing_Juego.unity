@@ -2234,6 +2234,18 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5e62493600ec180e6bed28024a68c668, type: 2}
   - {fileID: 11400000, guid: 5eb4556692bc2872a9403a5436a68a20, type: 2}
   - {fileID: 11400000, guid: 62b9662ed63485c8ba608714b7393f64, type: 2}
+  - {fileID: 11400000, guid: 85a88be309d70a01cbd2750a2bfc2a81, type: 2}
+  - {fileID: 11400000, guid: 840bacdf26960b74499f027bf31accdd, type: 2}
+  - {fileID: 11400000, guid: 49bb67ed71102d83a92df923a6a47851, type: 2}
+  - {fileID: 11400000, guid: f782fd888a4a6886cbe4a39a57c4e136, type: 2}
+  - {fileID: 11400000, guid: ffa511883411b1446853de3c1e13219b, type: 2}
+  - {fileID: 11400000, guid: 35b6a6d577f8575dabbc5675b1d6a42b, type: 2}
+  - {fileID: 11400000, guid: 7f895e4889e367a7db13c2989d21b6bc, type: 2}
+  - {fileID: 11400000, guid: 8a8ac4c94e8a44987a31ad982a34b884, type: 2}
+  - {fileID: 11400000, guid: 18edfe2f8928c1142b1f9702623dbc58, type: 2}
+  - {fileID: 11400000, guid: 7bcb178b58077b257abd35d977603c3d, type: 2}
+  - {fileID: 11400000, guid: f64bfc24c6cb9eb898bc715d959556e5, type: 2}
+  - {fileID: 11400000, guid: 716cd702fcc038f7ca982a5ca4912b89, type: 2}
   loadScene: {fileID: 968671197}
   timerBar: {fileID: 438128777}
   preguntas: {fileID: 971090793}

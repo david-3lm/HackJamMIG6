@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Evento_21
   m_EditorClassIdentifier: 
   id: 21
-  pregunta: "Sol cierra por Navidades \xBFInaguramos Sol 2?"
+  pregunta: "Sol cierra por Navidades \xBFInaguramos Sol 2 en Canillejas?"
   respuestas:
-  - {x: 30, y: 0, z: 0}
+  - {x: -20, y: 10, z: 20}
   - {x: 0, y: 0, z: 0}
   - {x: -20, y: -20, z: 0}
   si: El mejor momento

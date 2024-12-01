@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Evento_22
   m_EditorClassIdentifier: 
   id: 22
-  pregunta: Los ciudadanos piden reforma laboral
+  pregunta: Los ciudadanos piden reforma laboral para trabajar desde casa
   respuestas:
   - {x: 0, y: 20, z: 30}
   - {x: 0, y: 0, z: 0}
-  - {x: 30, y: 20, z: 0}
+  - {x: 20, y: 20, z: 0}
   si: 100% Teletrabajo
   no: En casa no se trabaja

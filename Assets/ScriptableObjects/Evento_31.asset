@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Evento_31
   m_EditorClassIdentifier: 
   id: 31
-  pregunta: "\xBFCreamos una zona verde en el centro de Madrid?"
+  pregunta: "\xBFFinanciamos una zona verde en el centro de Madrid?"
   respuestas:
-  - {x: -30, y: 0, z: 30}
-  - {x: 30, y: 20, z: 0}
+  - {x: -20, y: -15, z: 30}
+  - {x: 20, y: 20, z: 0}
   - {x: 0, y: 0, z: 0}
   si: "M\xE1s arboles"
   no: No toquemos el centro

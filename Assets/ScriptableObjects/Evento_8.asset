@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Evento_8
   m_EditorClassIdentifier: 
   id: 8
-  pregunta: "Hay una manifestaci\xF3n de terraplanistas por el centro"
+  pregunta: "Hay una manifestaci\xF3n de terraplanistas en el centro"
   respuestas:
   - {x: 0, y: 0, z: 0}
   - {x: -20, y: -20, z: -20}
-  - {x: -20, y: -30, z: -15}
+  - {x: -15, y: -15, z: -15}
   si: Que sigan
   no: Controladles

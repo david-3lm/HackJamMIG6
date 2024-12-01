@@ -16,7 +16,7 @@ MonoBehaviour:
   pregunta: "Echamos de menos sus canciones \xBFResucitamos a Julio Iglesias?"
   respuestas:
   - {x: 0, y: 0, z: 0}
-  - {x: 20, y: 20, z: 20}
+  - {x: 20, y: 20, z: 0}
   - {x: 0, y: 0, z: 0}
   si: Me encanta
   no: Mejor no

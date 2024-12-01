@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Evento_30
   m_EditorClassIdentifier: 
   id: 30
-  pregunta: "\xBFConstruimos m\xE1s parques para perros?"
+  pregunta: "\xBFGastamos para construir m\xE1s parques perrunos?"
   respuestas:
+  - {x: -20, y: 20, z: 20}
   - {x: 0, y: 20, z: 20}
-  - {x: 0, y: 20, z: 30}
   - {x: 0, y: 0, z: 0}
   si: Que se diviertan
   no: Que lleven correa

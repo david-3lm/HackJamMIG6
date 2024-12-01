@@ -17,6 +17,6 @@ MonoBehaviour:
   respuestas:
   - {x: 0, y: -20, z: -20}
   - {x: 0, y: 0, z: 0}
-  - {x: 20, y: 30, z: 0}
+  - {x: 20, y: 25, z: 0}
   si: "Reparad las v\xEDas"
   no: Que sigan pasando

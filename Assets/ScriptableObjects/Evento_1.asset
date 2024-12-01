@@ -17,6 +17,6 @@ MonoBehaviour:
   respuestas:
   - {x: 30, y: 0, z: -30}
   - {x: 0, y: 0, z: 0}
-  - {x: 30, y: 20, z: 20}
+  - {x: 20, y: 20, z: 20}
   si: Si. Montadlas
   no: "No. Est\xE1n bien"

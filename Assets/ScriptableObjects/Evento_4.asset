@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Evento_4
   m_EditorClassIdentifier: 
   id: 4
-  pregunta: "\xBFEste a\xF1o ponemos las luces navide\xF1as?"
+  pregunta: "\xBFEste a\xF1o instalamos las luces navide\xF1as?"
   respuestas:
-  - {x: 30, y: 20, z: 20}
+  - {x: 20, y: 20, z: 20}
   - {x: 0, y: 0, z: 0}
-  - {x: 30, y: 0, z: 0}
+  - {x: -25, y: -25, z: 0}
   si: "\xA1Que brillen!"
   no: Gasta mucho

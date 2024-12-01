@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Evento_9
   m_EditorClassIdentifier: 
   id: 9
-  pregunta: El museo del Prado quiere ampliarse
+  pregunta: "\xBFDestinamos dinero para ampliar el museo del Prado?"
   respuestas:
-  - {x: 0, y: 0, z: 0}
+  - {x: -10, y: 0, z: 0}
   - {x: 40, y: 0, z: 0}
-  - {x: -20, y: -20, z: 0}
+  - {x: 0, y: -20, z: 0}
   si: Mas cuadros
   no: Tienen ya mucho sitio

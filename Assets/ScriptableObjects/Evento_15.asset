@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Evento_15
   m_EditorClassIdentifier: 
   id: 15
-  pregunta: Quitamos algun parque para ampliar las calles
+  pregunta: "\xBFQuitamos alg\xFAn parque para ampliar las calzadas?"
   respuestas:
   - {x: 0, y: 0, z: 0}
-  - {x: 0, y: -20, z: -30}
-  - {x: 20, y: 25, z: 30}
+  - {x: 0, y: -20, z: -15}
+  - {x: 15, y: 15, z: 15}
   si: Empezad a talar
   no: No los toques

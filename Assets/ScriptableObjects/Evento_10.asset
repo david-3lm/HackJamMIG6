@@ -17,6 +17,6 @@ MonoBehaviour:
   respuestas:
   - {x: 20, y: 0, z: -30}
   - {x: 0, y: 0, z: 0}
-  - {x: 0, y: -30, z: -20}
+  - {x: 0, y: -10, z: -20}
   si: Si
   no: No

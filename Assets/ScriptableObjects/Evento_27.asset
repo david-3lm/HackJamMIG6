@@ -15,8 +15,8 @@ MonoBehaviour:
   id: 27
   pregunta: "\xBFAbrimos m\xE1s centro de salud en las afueras?"
   respuestas:
-  - {x: -30, y: 0, z: 40}
+  - {x: -20, y: 0, z: 30}
   - {x: 0, y: 0, z: 0}
-  - {x: -30, y: -20, z: 0}
+  - {x: -25, y: -20, z: 0}
   si: "Si M\xE1s sanidad"
   no: No Que anden un poco
