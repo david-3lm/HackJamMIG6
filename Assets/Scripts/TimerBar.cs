@@ -6,6 +6,7 @@ public class TimerBar : MonoBehaviour
 {
     public Image fillImage;
     public float duration = 10;
+    public LoadScene loadScene;
 
     private float timeRemaining;
     private Color startColor = new Color(1f, 1f, 1f, 0.2f);
@@ -49,6 +50,7 @@ public class TimerBar : MonoBehaviour
         {
             StopAllCoroutines();
             fillImage.fillAmount = 0;
+            loadScene.selectScene(7);
         }
     }
 

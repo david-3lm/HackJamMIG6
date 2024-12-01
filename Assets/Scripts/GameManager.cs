@@ -37,10 +37,10 @@ public class GameManager : MonoBehaviour
     public void selectNextEvent()
     {
         roundCounter++;
-        if (roundCounter >= 15)
+        if (roundCounter >= 10)
         {
             Debug.Log("Fin del juego");
-            loadScene.winGame();
+            loadScene.selectScene(2);
         }
         activeEvent = eventos[Random.Range(0, eventos.Count)];
         preguntas.text = activeEvent.pregunta;
@@ -92,8 +92,7 @@ public class GameManager : MonoBehaviour
         }
         if (OnValoresCambiados != null)
             OnValoresCambiados();
-        if (checkGameOver())
-            loadScene.loseGame();
+        checkGameOver();
         ActualizarPilotos();
     }
 
@@ -102,14 +101,18 @@ public class GameManager : MonoBehaviour
         medias[0].x = (lugares[0].x + lugares[0].y + lugares[0].z) / 3;
         medias[0].y = (lugares[1].x + lugares[1].y + lugares[1].z) / 3;
         medias[0].z = (lugares[2].x + lugares[2].y + lugares[2].z) / 3;
-        if (medias[0].x <= 20 || medias[0].y <= 20 || medias[0].z <= 20)
-            return true;
+        if (medias[0].x <= 20)
+            loadScene.selectScene(3);
+        else if (medias[0].y <= 20)
+            loadScene.selectScene(4);
+        else if (medias[0].z <= 20)
+            loadScene.selectScene(5);
         if (lugares[0].x <= 30 && lugares[1].x <= 30 && lugares[2].x <= 30)
-            return true;
+            loadScene.selectScene(6);
         if (lugares[0].y <= 30 && lugares[1].y <= 30 && lugares[2].y <= 30)
-            return true;
+            loadScene.selectScene(6);
         if (lugares[0].z <= 30 && lugares[1].z <= 30 && lugares[2].z <= 30)
-            return true;
+            loadScene.selectScene(6);
         return false;
     }
 
