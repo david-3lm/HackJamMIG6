@@ -263,7 +263,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TU PROGRAMA NO HA OFRECIDO LOS RESULTADOS ESPERADOSLOS RESULTADOS ESPERADOS
+  m_text: TU PROGRAMA NO HA OFRECIDO LOS RESULTADOS ESPERADOS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 602272807e1dc5199933989bf39eca81, type: 2}
   m_sharedMaterial: {fileID: 323738683095568313, guid: 602272807e1dc5199933989bf39eca81, type: 2}

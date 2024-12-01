@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -7,6 +8,8 @@ public class Pantalla : MonoBehaviour
 {
     [SerializeField] private int x;
     [SerializeField] private int y;
+    [SerializeField] SpriteRenderer imagen;
+    [SerializeField] List<Sprite> imagenes;
 
     private GameManager gm;
 
@@ -24,6 +27,7 @@ public class Pantalla : MonoBehaviour
         sr.material = material;
         material = sr.material;
         gm.OnValoresCambiados += ActualizarValores;
+        imagen.sprite = imagenes[1];
         ActualizarColor();
     }
 
@@ -44,19 +48,22 @@ public class Pantalla : MonoBehaviour
         if (value <= 30)
         {
             //camara roja
-            material.color = new Color(1, 0, 0, value);
+            material.color = new Color(1, 0, 0.5f, value);
+            imagen.sprite = imagenes[0];
             //Debug.Log("Camara Roja en posicion" + x + y);
         }
         else if (value >= 40 && value <= 70)
         {
             //camara naranja
             material.color = new Color(1, 1.0f, 0.2f, value);
+            imagen.sprite = imagenes[1];
             //Debug.Log("Camara Naranja en posicion" + x + y);
         }
         else if (value >= 70)
         {
             //camara verde  
             material.color = new Color(0, 1, 0, value);
+            imagen.sprite = imagenes[2];
             //Debug.Log("Camara verde en posicion " + x + y);
         }
     }
