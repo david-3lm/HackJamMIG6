@@ -623,6 +623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fillImage: {fileID: 438128776}
   duration: 10
+  loadScene: {fileID: 968671197}
 --- !u!222 &438128778
 CanvasRenderer:
   m_ObjectHideFlags: 0

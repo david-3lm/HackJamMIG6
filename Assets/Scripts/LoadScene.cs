@@ -31,6 +31,9 @@ public class LoadScene : MonoBehaviour
             case 7:
                 SceneManager.LoadScene("LoseGame4");
                 break;
+            case 8:
+                Application.Quit();
+                break;
         }
     }
 }
