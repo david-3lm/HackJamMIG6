@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Madrid_Rio_Mal_0: 8629973608686140006
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

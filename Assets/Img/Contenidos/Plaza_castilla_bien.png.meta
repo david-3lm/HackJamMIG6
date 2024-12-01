@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Plaza_castilla_bien_0: -8568572933880404011
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

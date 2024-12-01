@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Placita_mal_0: -2940322236521674445
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
