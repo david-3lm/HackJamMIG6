@@ -20,9 +20,10 @@ public class Pantalla : MonoBehaviour
         gm = FindFirstObjectByType<GameManager>();
         value = gm.lugares[x][y];
         sr = GetComponent<SpriteRenderer>();
+        material = new Material(sr.material);
+        sr.material = material;
         material = sr.material;
         gm.OnValoresCambiados += ActualizarValores;
-        gm.OnCheckBlinking += Blinking;
         ActualizarColor();
     }
 
@@ -49,7 +50,7 @@ public class Pantalla : MonoBehaviour
         else if (value >= 40 && value <= 70)
         {
             //camara naranja
-            material.color = new Color(1, 1.0f, 0.5f, value);
+            material.color = new Color(1, 1.0f, 0.2f, value);
             //Debug.Log("Camara Naranja en posicion" + x + y);
         }
         else if (value >= 70)
@@ -59,16 +60,5 @@ public class Pantalla : MonoBehaviour
             //Debug.Log("Camara verde en posicion " + x + y);
         }
     }
-
-    void Blinking(int x, int y)
-    {
-        if (this.x == x && this.y == y)
-        {
-            material.SetFloat("_Blink", 1.0f);
-        }
-        else
-        {
-            material.SetFloat("_Blink", 0.0f);
-        }
-    }
+    
 }
