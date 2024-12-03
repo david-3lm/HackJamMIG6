@@ -19,6 +19,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private SpriteRenderer tren;
     public delegate void ValoresCambiados();
     public event ValoresCambiados OnValoresCambiados;
+    
+    public delegate void Blinkea(int x, int y);
+    public event Blinkea OnBlinkea;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -35,7 +38,7 @@ public class GameManager : MonoBehaviour
     public void selectNextEvent()
     {
         roundCounter++;
-        if (roundCounter >= 10)
+        if (roundCounter >= 15)
         {
             Debug.Log("Fin del juego");
             loadScene.selectScene(2);
@@ -114,5 +117,21 @@ public class GameManager : MonoBehaviour
         return false;
     }
 
+    public void CheckBlink()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            if (activeEvent.respuestas[i].x != 0)
+                OnBlinkea.Invoke(i, 0);
+            if (activeEvent.respuestas[i].y != 0)
+                OnBlinkea.Invoke(i, 1);
+            if (activeEvent.respuestas[i].z != 0)
+                OnBlinkea.Invoke(i, 2);
+        }
+    }
 
+    public void StopBlink()
+    {
+        OnBlinkea.Invoke(-1, -1);
+    }
 }

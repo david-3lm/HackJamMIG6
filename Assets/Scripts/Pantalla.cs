@@ -27,6 +27,7 @@ public class Pantalla : MonoBehaviour
         sr.material = material;
         material = sr.material;
         gm.OnValoresCambiados += ActualizarValores;
+        gm.OnBlinkea += StartBlink;
         imagen.sprite = imagenes[1];
         ActualizarColor();
     }
@@ -67,5 +68,18 @@ public class Pantalla : MonoBehaviour
             //Debug.Log("Camara verde en posicion " + x + y);
         }
     }
-    
+
+    void StartBlink(int a, int b)
+    {
+        if (a == x && b == y)
+        {
+            material.SetFloat("_Blink", 1f);
+            Debug.Log("Soy la pantalla " + x + " " + y + " y empiezo a blinkear");
+        }
+        else if (a == -1 && b == -1)
+        {
+            material.SetFloat("_Blink", 0f);
+            Debug.Log("Soy la pantalla " + x + " " + y + " y dejo de blinkear");
+        }
+    }
 }
