@@ -26,24 +26,28 @@ public class Hover : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        gm.CheckBlink();
+        if (gm)
+            gm.CheckBlink();
         if (esSi)
         {
+            if (gm)
+                text.text = gm.activeEvent.si;
             mat.SetFloat("_Hovering", 1.0f);
-            text.text = gm.activeEvent.si;
             mat.color = new Color(0.517f, 1f, 0.914f);
         }
         else
         {
+            if (gm)
+                text.text = gm.activeEvent.no;
             mat.SetFloat("_Hovering", 1.0f);
-            text.text = gm.activeEvent.no;
             mat.color = new Color(0.517f, 1f, 0.914f);
         }
     }
 
     public void OnMouseExit()
     {
-        gm.StopBlink();
+        if (gm)
+            gm.StopBlink();
         mat.SetFloat("_Hovering", 0.0f);
         mat.color = Color.clear;
         text.text = "";
