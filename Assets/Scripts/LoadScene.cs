@@ -34,6 +34,9 @@ public class LoadScene : MonoBehaviour
             case 8:
                 Application.Quit();
                 break;
+            case 9:
+                SceneManager.LoadScene("Tutorial");
+                break;
         }
     }
 }
